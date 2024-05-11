@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: copy;
+    src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+} 
+ 
+ 
+
+.img1{
+    width: 469px;
+    height: 832px;
+    position: absolute;
+}
+div{
+    width: 340px;
+    height: 372px;
+    border: 1px solid;
+    margin-left: 650px;
+    margin-top: 250px;
+    position: absolute;
+   border: none;
+}
+h3{
+   margin-top: 0%;
+   font-family: copy;
+    position: absolute;
+}
+.login{
+    margin-top: 25px;
+    font-family: copy;
+    color: #6b7280;
+    position: absolute;
+}
+.google{
+    width: 281px;
+    height: 48px;
+    margin-top: 80px;
+    border-radius: 4px;
+    padding: 2px;
+    font-family: copy;
+    color: #ffffff;
+    background-color: #4285f4;
+    border: none;
+    position: absolute;
+}
+.img2{
+    width: 43px;
+    height: 43px;
+    margin-left: 2px;
+    margin-top: 82px;
+    border-radius: 2px,0px,0px,2px;
+    position: absolute;
+}
+.img3{
+  width: 47px;  
+  height: 48px;
+  border-radius: 4px;
+  background-color: #ecf2fc;
+  margin-left: 290px;
+  margin-top: 80px;
+  position: absolute;
+}
+hr{
+    width: 340px;
+    height: 1px;
+    margin-top: 150px;
+    background-color:#E5E7EB ;
+    }
+    input{
+        width: 340px;
+        height: 48px;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-top: 20px;
+        padding-left: 49px;
+        font-family: copy;
+        color: #E5E7EB;
+        position: absolute;
+        }
+        .img4{
+            width: 24px;
+            height: 24px;
+            margin-top: 33px;
+            margin-left: 10px;
+            position: absolute;
+        }
+        .pass{
+            margin-top: 90px;
+            margin-left: 6px;
+            font-family: copy;
+            color: #6b7280;
+            position: absolute;
+        }
+        .chref{
+            margin-left: 145px;
+            margin-top: 90px;
+            color: #6d58ba;
+            text-decoration: none;
+            font-family: copy;
+            position: absolute;
+        }
+        .cont{
+            width: 340px;
+            height: 48px;
+            margin-top: 120px;
+            font-family: copy;
+            border-radius: 6px;
+            color: #ffffff;
+            background-color: #724dff;
+            border: none;
+            position: absolute;
+        }
+        .end{
+            font-family: copy;
+            font-size: 0.95rem;
+            color: #6b7280;
+            margin-top: 180px;
+            position: absolute;
+        }
+        .optimal{
+            font-family: copy;
+            font-size: 0.90rem;
+            text-decoration: none;
+            position: absolute;
+            margin-top: 180px;
+            margin-left: 162px;
+        }
+       @media screen and (max-width:768px) {
+        div{
+            width: 360px;
+            height: 512px;
+        }
+       }
